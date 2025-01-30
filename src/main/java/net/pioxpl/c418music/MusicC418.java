@@ -12,5 +12,6 @@ public class MusicC418 implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		
 	}
 }
