@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "music-c418",
+	"version": "${version}",
+	"name": "Music-C418",
+	"description": "no description",
+	"authors": [
+		"PioXPL"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/music-c418/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pioxpl.c418music.MusicC418"
+		],
+		"fabric-datagen": [
+			"net.pioxpl.c418music.MusicC418DataGenerator"
+		],
+		"client": [
+			"net.pioxpl.c418music.MusicC418Client"
+		]
+	},
+	"mixins": [
+		"music-c418.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
