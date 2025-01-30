@@ -2,6 +2,7 @@ package net.pioxpl.c418music;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.pioxpl.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +13,6 @@ public class MusicC418 implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModSounds.registerSounds();
 	}
 }
