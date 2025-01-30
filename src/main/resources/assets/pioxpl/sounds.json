@@ -1,0 +1,11 @@
+{
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "pioxpl:bar_brawl",
+        "stream": true,
+        "looping": true
+      }
+    ]
+  }
+}
